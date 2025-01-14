@@ -1,1 +1,4 @@
-empty
+sudo apt update
+sudo apt install tinyproxy
+sudo vim /etc/tinyproxy/tinyproxy.conf
+sudo /etc/init.d/tinyproxy start
